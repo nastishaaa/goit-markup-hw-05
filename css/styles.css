@@ -546,6 +546,7 @@ nav{
 
 .form-footer{
     display: flex;
+    gap: 24px;
 }
 
 .email-input{
@@ -556,15 +557,17 @@ nav{
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #2e2f42;
+    background-color: transparent; 
+    font-size: 12px;
+    line-height: 2; 
+    letter-spacing: 0.04em; 
+    padding-left: 16px; 
+    color: #ffffff;
+
 }
 
 .email-input::placeholder{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-    padding-left: 16px;
+    color: #ffffff;
 }
 
 .butt-input{
