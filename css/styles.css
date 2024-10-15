@@ -630,7 +630,7 @@ nav{
     z-index: 999;
 }
 
-.modal, .modal-window{
+.modal{
     position: absolute;
     top: 50%;
     left: 50%;
