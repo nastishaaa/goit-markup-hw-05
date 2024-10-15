@@ -719,7 +719,7 @@ nav{
 }
 
 .modal-form-block{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .info {
@@ -730,7 +730,6 @@ nav{
     padding-left: 38px;
     outline: transparent; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    width: 100%; 
 }
 
 .form-elem{
@@ -739,6 +738,8 @@ nav{
     width: 360px;
     height: 40px;
     position: relative; 
+    width: 100%; 
+    top: 50%;
 }
 
 .icon-modal:hover {
@@ -767,7 +768,6 @@ nav{
     outline: transparent; 
     resize: none; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    margin-bottom: 16px;
 }
 
 .comment-info:focus{
@@ -797,7 +797,7 @@ nav{
     fill: transparent; 
     order: -1;
     margin-right: 8px;
-    display: inline-flex; 
+    display: inline-flex;
 }
 
 input[type="checkbox"]:checked + label .cus-checkbox{
@@ -835,7 +835,7 @@ input[type="checkbox"]:checked + label .cus-checkbox{
     left: 16px;
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    top: 50%;
+    /* top: 50%; */
 }
 
 /* .butt-container{
@@ -860,5 +860,6 @@ input[type="checkbox"]:checked + label .cus-checkbox{
     text-align: center;
     color: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    cursor: pointer;
 }
 
