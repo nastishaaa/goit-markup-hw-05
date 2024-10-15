@@ -835,14 +835,7 @@ input[type="checkbox"]:checked + label .cus-checkbox{
     left: 16px;
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    /* top: 50%; */
 }
-
-/* .butt-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .butt-send-el{
     display: block;
