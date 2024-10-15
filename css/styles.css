@@ -613,7 +613,6 @@ nav{
     transition: 
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
 
 .backdrop.is-open {
@@ -695,7 +694,6 @@ nav{
     0 1px 3px 0 rgba(0, 0, 0, 0.12), 
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
-    /* fill: #e7e9fc; */
     position: absolute;
     top: 24px; 
     right: 24px;
@@ -725,7 +723,6 @@ nav{
 }
 
 .info {
-    width: 100%; 
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -733,6 +730,7 @@ nav{
     padding-left: 38px;
     outline: transparent; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    width: 100%; 
 }
 
 .form-elem{
@@ -769,6 +767,7 @@ nav{
     outline: transparent; 
     resize: none; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    margin-bottom: 16px;
 }
 
 .comment-info:focus{
@@ -793,12 +792,12 @@ nav{
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex; 
     align-items: center;
     justify-content: center;
     fill: transparent; 
     order: -1;
     margin-right: 8px;
+    display: inline-flex; 
 }
 
 input[type="checkbox"]:checked + label .cus-checkbox{
@@ -808,8 +807,6 @@ input[type="checkbox"]:checked + label .cus-checkbox{
 }
 
 .icon-check{
-    /* border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.4); */
     fill: #FFFFFF;
 }
 
@@ -836,16 +833,16 @@ input[type="checkbox"]:checked + label .cus-checkbox{
     fill: #2e2f42;
     position: absolute;
     left: 16px;
-    top: 50%;
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    top: 50%;
 }
 
-.butt-container{
+/* .butt-container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .butt-send-el{
     display: block;
@@ -863,6 +860,5 @@ input[type="checkbox"]:checked + label .cus-checkbox{
     text-align: center;
     color: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
 }
 
