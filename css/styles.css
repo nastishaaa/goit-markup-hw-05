@@ -784,8 +784,8 @@ nav{
     line-height: 1.17; 
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .cus-checkbox{
@@ -801,7 +801,7 @@ nav{
     align-items: center;
     justify-content: center;
     fill: transparent; 
-    order: -1;
+    /* order: -1; */
     margin-right: 8px;
 }
 
